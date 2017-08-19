@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\android_studio\myworkspace\CpuMem\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\android_studio\myworkspace\CpuMem\app\src\debug\jniLibs"/></dataSet></merger>

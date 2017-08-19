@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.github.dfqin\grantor\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6ddaf598d9961258441e1c5d5bda7bdd16099515">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.github.dfqin-grantor-2.1.0_a58b5e4c799787cee78dd3dcf4e1484da723f74f.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.github.markzhai\blockcanary-analyzer\1.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="02980bdb137cba939b89c73457bc48a79fc727c3">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.github.markzhai-blockcanary-analyzer-1.5.0_45f5f311ec3bf4cfcf12770a49cabc5653ad4096.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_827771a10a07f5cf0c990983aedd73a4122ba454.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_c4ac12a6d7ddc7b3b81b650348e55715098b95b5.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_eb562a83559cfc5a893ff0450d529d454e3bf421.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_972dd637b578ab88529d399d56c2530b44fa1e31.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.github.markzhai\blockcanary-android\1.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="240276267043767bad10752646d525517511a91b">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.github.markzhai-blockcanary-android-1.5.0_81f940b3bb694081cc4ebc5c3bc8e6a5e965c482.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e0d50643dbd89d464a7c2cb49425289bd27e0bb2.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_19ff5c6a4acefd538f2fa3588219573912ca734b.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f697de701d73f9786e4a95ed4c8224cf59f0d557.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_60c103ca2d8e84417498cacb0b9e7bed1ea63cf0.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_10af7c382899980f4c5d3bbec89a71dd5f8d6d3c.jar" />
+    </item>
+    <item
+        jar="D:\adt\adt-bundle-windows-x86\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_35ad6e6662ae0c50eb9dea0ae9e9cbcd086c109d.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_11ea2badeeb56d3f6fc98db582eda8d2cccc3ea2.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_e1b4cae4ea564e108e4a672aa16d6546286190a8.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_5d79b7fd079c1edd6b16cb150d2a7d5be235a843.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_bd8b6b28f61c9433db922996c02b9d9fb8ed59a5.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_87e9aa91bf0f430bf1380daf592d5c9c22e92fbd.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_bf28473d67a4964dd3bf163dea1fba264ee720b0.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_81d46de0ae2825c9c7b17bec053191466639f0c7.jar" />
+    </item>
+    <item
+        jar="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\jacoco\jacocoagent.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea73283d55c98ab1fccb8c23d76c68b7d7ecbd83">
+        <dex dex="C:\android_studio\myworkspace\CpuMem\app\build\intermediates\pre-dexed\debug\jacocoagent_049597432a276fe2bb987647d24b40a0101a4a29.jar" />
+    </item>
+
+</items>

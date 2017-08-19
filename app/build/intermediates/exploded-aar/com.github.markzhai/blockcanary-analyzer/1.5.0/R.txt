@@ -1,0 +1,1 @@
+int integer block_canary_max_stored_count 0x7f020000
