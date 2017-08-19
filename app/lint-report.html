@@ -18,18 +18,14 @@ document.getElementById(id+'Link').style.display = 'none';
 <body>
 <h1>Lint Report</h1>
 <div class="titleSeparator"></div>
-Check performed at Sat Aug 05 12:37:37 CST 2017.<br/>
-2 errors and 49 warnings found:<br/><br/>
+Check performed at Sat Aug 19 21:42:16 CST 2017.<br/>
+1 errors and 49 warnings found:<br/><br/>
 <table class="overview">
 <tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-report_files/lint-warning.png" alt="Warning" />
 <a href="#CommitPrefEdits">CommitPrefEdits: Missing <code>commit()</code> on <code>SharedPreference</code> editor</a>
-</td></tr>
-<tr>
-<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-report_files/lint-error.png" alt="Error" />
-<a href="#NewApi">NewApi: Calling new methods on older versions</a>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-report_files/lint-warning.png" alt="Warning" />
@@ -162,44 +158,18 @@ After calling <code>edit()</code> on a <code>SharedPreference</code>, you must c
 </div>
 <br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "CommitPrefEdits" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 </div>
-<a name="NewApi"></a>
-<div class="issue">
-<div class="id"><a href="#" title="Return to top">NewApi: Calling new methods on older versions</a><div class="issueSeparator"></div>
-</div>
-<div class="warningslist">
-<span class="location"><a href=".">C:\android_studio\myworkspace\CpuMem\app</a></span>: <span class="message">The SDK platform-tools version (23.1) is too old  to check APIs compiled with API 24; please update</span><br />
-</div>
-<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-report_files/lint-run.png" />
-<br>
-Priority: 6 / 10<br/>
-Category: Correctness</div>
-Severity: <span class="error">Error</span><div class="summary">
-Explanation: Calling new methods on older versions.</div>
-<div class="explanation">
-This check scans through all the Android API calls in the application and warns about any calls that are not available on <b>all</b> versions targeted by this application (according to its minimum SDK attribute in the manifest).<br/>
-<br/>
-If you really want to use this API and don't need to support older devices just set the <code>minSdkVersion</code> in your <code>build.gradle</code> or <code>AndroidManifest.xml</code> files.<br/>
-<br/>
-If your code is <b>deliberately</b> accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the <code>@TargetApi</code> annotation specifying the local minimum SDK to apply, such as <code>@TargetApi(11)</code>, such that this check considers 11 rather than your manifest file's minimum SDK as the required API level.<br/>
-<br/>
-If you are deliberately setting <code>android:</code> attributes in style definitions, make sure you place this in a <code>values-vNN</code> folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.<br/>
-<br/>
-Similarly, you can use tools:targetApi="11" in an XML file to indicate that the element will only be inflated in an adequate context.
-</div>
-<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-</div>
 <a name="OldTargetApi"></a>
 <div class="issue">
 <div class="id"><a href="#" title="Return to top">OldTargetApi: Target SDK attribute is not targeting latest version</a><div class="issueSeparator"></div>
 </div>
 <div class="warningslist">
-<span class="location"><a href="build.gradle">C:\android_studio\myworkspace\CpuMem\app\build.gradle</a>:58</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
-<span class="lineno">  55</span>     defaultConfig {
-<span class="lineno">  56</span>         applicationId "com.example.administrator.cpumem"
-<span class="lineno">  57</span>         minSdkVersion 17
-<span class="lineno">  58</span>         <span class="errorspan">targetSdkVersion 24</span>
-<span class="lineno">  59</span>         versionCode 1
-<span class="lineno">  60</span>         versionName "1.0"
+<span class="location"><a href="build.gradle">C:\android_studio\myworkspace\CpuMem\app\build.gradle</a>:81</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">  78</span>     defaultConfig {
+<span class="lineno">  79</span>         applicationId "com.example.administrator.cpumem"
+<span class="lineno">  80</span>         minSdkVersion 17
+<span class="lineno">  81</span>         <span class="errorspan">targetSdkVersion 24</span>
+<span class="lineno">  82</span>         versionCode 1
+<span class="lineno">  83</span>         versionName "1.0"
 </pre>
 </div>
 <div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-report_files/lint-run.png" />
@@ -359,21 +329,21 @@ The &lt;application> tag should appear after the elements which declare which ve
 <div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
 </div>
 <div class="warningslist">
-<span class="location"><a href="build.gradle">C:\android_studio\myworkspace\CpuMem\app\build.gradle</a>:83</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 24.2.1 is available: 25.3.1</span><br /><pre class="errorlines">
-<span class="lineno">  80</span>     compile 'com.github.dfqin:grantor:2.1.0'
-<span class="lineno">  81</span>     //&#22686;&#21152;&#23545;&#21345;&#39039;&#26816;&#27979;&#30340;&#20381;&#36182;
-<span class="lineno">  82</span>     compile 'com.github.markzhai:blockcanary-android:1.5.0'
-<span class="lineno">  83</span>     <span class="errorspan">compile 'com.android.support:appcompat-v7:24.2.1'</span>
-<span class="lineno">  84</span>     compile 'com.android.support:design:24.2.1'
-<span class="lineno">  85</span> }
+<span class="location"><a href="build.gradle">C:\android_studio\myworkspace\CpuMem\app\build.gradle</a>:106</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 24.2.1 is available: 25.3.1</span><br /><pre class="errorlines">
+<span class="lineno"> 103</span>     compile 'com.github.dfqin:grantor:2.1.0'
+<span class="lineno"> 104</span>     //&#22686;&#21152;&#23545;&#21345;&#39039;&#26816;&#27979;&#30340;&#20381;&#36182;
+<span class="lineno"> 105</span>     compile 'com.github.markzhai:blockcanary-android:1.5.0'
+<span class="lineno"> 106</span>     <span class="errorspan">compile 'com.android.support:appcompat-v7:24.2.1'</span>
+<span class="lineno"> 107</span>     compile 'com.android.support:design:24.2.1'
+<span class="lineno"> 108</span> }
 </pre>
-<span class="location"><a href="build.gradle">C:\android_studio\myworkspace\CpuMem\app\build.gradle</a>:84</span>: <span class="message">A newer version of com.android.support:design than 24.2.1 is available: 25.3.1</span><br /><pre class="errorlines">
-<span class="lineno">  81</span>     //&#22686;&#21152;&#23545;&#21345;&#39039;&#26816;&#27979;&#30340;&#20381;&#36182;
-<span class="lineno">  82</span>     compile 'com.github.markzhai:blockcanary-android:1.5.0'
-<span class="lineno">  83</span>     compile 'com.android.support:appcompat-v7:24.2.1'
-<span class="lineno">  84</span>     <span class="errorspan">compile 'com.android.support:design:24.2.1'</span>
-<span class="lineno">  85</span> }
-<span class="lineno">  86</span> 
+<span class="location"><a href="build.gradle">C:\android_studio\myworkspace\CpuMem\app\build.gradle</a>:107</span>: <span class="message">A newer version of com.android.support:design than 24.2.1 is available: 25.3.1</span><br /><pre class="errorlines">
+<span class="lineno"> 104</span>     //&#22686;&#21152;&#23545;&#21345;&#39039;&#26816;&#27979;&#30340;&#20381;&#36182;
+<span class="lineno"> 105</span>     compile 'com.github.markzhai:blockcanary-android:1.5.0'
+<span class="lineno"> 106</span>     compile 'com.android.support:appcompat-v7:24.2.1'
+<span class="lineno"> 107</span>     <span class="errorspan">compile 'com.android.support:design:24.2.1'</span>
+<span class="lineno"> 108</span> }
+<span class="lineno"> 109</span> 
 </pre>
 </div>
 <div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-report_files/lint-run.png" />
