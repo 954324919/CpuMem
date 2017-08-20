@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.administrator.cpumem.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-08-20T02:27:42" hostname="chendaqian" time="0.003">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.example.administrator.cpumem.ExampleUnitTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
